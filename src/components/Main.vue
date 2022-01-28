@@ -19,4 +19,8 @@ export default {
 @import "../assets/style/global.scss";
 @import "../assets/style/partials/variables.scss";
 
+main {
+  background-color: $secondaryColor;
+  color: white;
+}
 </style>
