@@ -44,12 +44,11 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 @import "../assets/style/global.scss";
 @import "../assets/style/partials/variables.scss";
+
 section {
   background-color: $mainColor;
 }
-
 </style>
