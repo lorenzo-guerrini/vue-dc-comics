@@ -70,7 +70,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-li {
-  list-style: none;
-}
+@import "../assets/style/global.scss";
 </style>
