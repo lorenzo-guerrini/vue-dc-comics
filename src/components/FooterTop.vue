@@ -1,7 +1,7 @@
 <template>
   <section>
     <div v-for="(item, i) in footerTopItems" :key="i" class="footer-top-item">
-      <img :src="'../assets/img/' + item.img" alt="">
+      <img :src="require('../assets/img/' + item.img)" alt="">
       <div class="footer-top-item-name"></div>
     </div>
   </section>
@@ -44,8 +44,5 @@ export default {
 section {
   background-color: #0282f9;
 }
-img {
-  width: 100px;
-  height: 100px;
-}
+
 </style>

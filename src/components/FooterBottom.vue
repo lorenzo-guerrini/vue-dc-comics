@@ -1,6 +1,6 @@
 <template>
   <section>
-    aaa
+    aaa aaa
   </section>
 </template>
 
