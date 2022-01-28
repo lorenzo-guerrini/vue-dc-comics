@@ -8,8 +8,8 @@
       </div>
       <nav>
         <ul>
-          <li v-for="(item, i) in menuItems" :key="i">
-            <a :href="item.url" :class="{'active': currentItem == i}">{{item.text}}</a>
+          <li v-for="(item, i) in menuItems" :key="i" :class="{'active': currentItem == i}">
+            <a :href="item.url">{{item.text}}</a>
           </li>
         </ul>
       </nav>
@@ -81,6 +81,8 @@ export default {
   height: 115px;
 
   padding: 0 15px;
+
+  font-family: 'Bangers', cursive;
 }
 
 .logo {
@@ -98,9 +100,26 @@ export default {
 ul {
   display: flex;
 
+  font-size: 20px;
+
   li {
-    padding: 0 10px;
+    margin: 0 20px;
+
+    
+    padding: 47.5px 0 42.5px 0;
+    border-bottom: 5px solid white;
+
+    &:hover, &.active {
+      border-color: $mainColor;
+    }
+
+    a {
+      color: $secondaryColor;
+
+      &:hover {
+        color: $mainColor;
+      }
+    }
   }
 } 
-
 </style>
