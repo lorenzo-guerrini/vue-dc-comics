@@ -6,7 +6,9 @@
       </div>
       <nav>
         <ul>
-          <li>a</li>
+          <li v-for="(item, i) in menuItems" :key="i">
+            <a :href="item.url" :class="{'active': currentItem == i}">{{item.text}}</a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -60,7 +62,7 @@ export default {
           url: "#"
         }
       ],
-      currentItem: 0
+      currentItem: 1
     }
   }
 }
