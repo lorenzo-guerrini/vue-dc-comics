@@ -74,4 +74,33 @@ export default {
 <style scoped lang="scss">
 @import "../assets/style/global.scss";
 @import "../assets/style/partials/variables.scss";
+
+.container {
+  justify-content: space-between;
+
+  height: 115px;
+
+  padding: 0 15px;
+}
+
+.logo {
+  a {
+    display: flex;
+    align-items: center;
+
+    img {
+      height: 81px;
+      width: 81px;
+    }
+  }
+}
+
+ul {
+  display: flex;
+
+  li {
+    padding: 0 10px;
+  }
+} 
+
 </style>
