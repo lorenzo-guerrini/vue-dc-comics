@@ -2,7 +2,9 @@
   <header>
     <div class="container">
       <div class="logo">
-        <img src="../assets/img/dc-logo.png" alt="DC">
+        <a href="#">
+          <img src="../assets/img/dc-logo.png" alt="DC">
+        </a>
       </div>
       <nav>
         <ul>

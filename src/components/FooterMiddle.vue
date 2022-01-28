@@ -4,7 +4,7 @@
       <h3>{{category.text}}</h3>
       <ul>
         <li v-for="(item, p) in category.items" :key="p">
-          <a href="">{{item.text}}</a>
+          <a :href="item.url">{{item.text}}</a>
         </li>
       </ul>
     </div>
