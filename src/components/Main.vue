@@ -2,7 +2,7 @@
   <main>
     <div class="container">
       <section>
-        <strong>--&gt; Content Goes here &lt;--</strong>
+        <h1>--&gt; Content Goes here &lt;--</h1>
       </section>
     </div>
   </main>
@@ -21,5 +21,12 @@ export default {
 main {
   background-color: $secondaryColor;
   color: white;
+}
+
+.container {
+  font-family: 'Bangers', cursive;
+  padding: 0 14px;
+
+  height: 115px;
 }
 </style>
