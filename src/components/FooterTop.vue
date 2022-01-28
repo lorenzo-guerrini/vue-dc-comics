@@ -2,7 +2,7 @@
   <section>
     <div v-for="(item, i) in footerTopItems" :key="i" class="footer-top-item">
       <img :src="require('../assets/img/' + item.img)" alt="">
-      <div class="footer-top-item-name"></div>
+      <div class="footer-top-item-name">{{item.text}}</div>
     </div>
   </section>
 </template>
