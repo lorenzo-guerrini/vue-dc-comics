@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import "./partials/variables.scss";
 
 *{
     box-sizing: border-box;
@@ -19,4 +20,18 @@ a {
     margin: auto;
     display: flex;
     align-items: center;
+}
+
+button {
+    background: none;
+
+    border: 2px solid $mainColor;
+
+    color: white;
+
+    cursor: pointer;
+
+    &:hover {
+        background-color: $mainColor;
+    }
 }

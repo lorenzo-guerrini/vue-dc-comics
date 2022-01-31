@@ -77,15 +77,8 @@ section {
 button {
   font-family: 'Bangers', cursive;
   font-size: 20px;
-  color: white;
 
   padding: 12px;
-
-  background: none;
-
-  border: 2px solid $mainColor;
-
-  cursor: pointer;
 }
 
 #footer-bottom-dx {
