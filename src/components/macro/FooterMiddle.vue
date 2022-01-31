@@ -151,6 +151,7 @@ export default {
 
 <style scoped lang="scss">
 @import "../../assets/style/global.scss";
+@import "../../assets/style/partials/variables.scss";
 
 section {
   background-image: url("../../assets/img/footer-bg.jpg");
@@ -189,6 +190,10 @@ section {
 
     a {
       color: #959595;
+
+      &:hover {
+        color: $mainColor;
+      }
     }
   }
 }
