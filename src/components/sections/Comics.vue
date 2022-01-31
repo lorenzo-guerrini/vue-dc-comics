@@ -30,5 +30,4 @@ export default {
     flex-wrap: wrap;
     justify-content: center;
 }
-
 </style>

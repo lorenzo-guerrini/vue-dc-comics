@@ -62,7 +62,7 @@ section:last-of-type {
   button {
     font-family: 'Bangers', cursive;
     font-size: 16px;
-    
+
     padding: 10px 70px ;
 
     align-self: center;
@@ -70,6 +70,4 @@ section:last-of-type {
     background-color: $mainColor;
   }
 }
-
-
 </style>

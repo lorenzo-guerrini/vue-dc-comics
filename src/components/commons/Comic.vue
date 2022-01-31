@@ -15,7 +15,7 @@
 export default {
     name: 'Comic',
     props: {
-        'comic': Object
+        comic: Object
     }
 }
 </script>
