@@ -1,12 +1,14 @@
 <template>
   <section>
-    <div class="category" v-for="(category, i) in categories" :key="i">
-      <h3>{{category.text}}</h3>
-      <ul>
-        <li v-for="(item, p) in category.items" :key="p">
-          <a :href="item.url">{{item.text}}</a>
-        </li>
-      </ul>
+    <div class="container">
+      <div class="category" v-for="(category, i) in categories" :key="i">
+        <h3>{{category.text}}</h3>
+        <ul>
+          <li v-for="(item, p) in category.items" :key="p">
+            <a :href="item.url">{{item.text}}</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </section>
 </template>
@@ -146,4 +148,41 @@ export default {
 <style scoped lang="scss">
 @import "../assets/style/global.scss";
 @import "../assets/style/partials/variables.scss";
+
+section {
+  background-image: url("../assets/img/footer-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  padding: 40px 14px 50px;
+  
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  font-family: 'Bangers', cursive;
+}
+
+.category {
+  padding-right: 30px;
+
+  h3 {
+    font-size: 26px;
+    color: white;
+
+    margin-bottom: 10px
+  }
+
+  li {
+    font-size: 13px;
+
+    margin: 4px 0;
+
+    a {
+      color: #959595;
+    }
+  }
+}
 </style>
