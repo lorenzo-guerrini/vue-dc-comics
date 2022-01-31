@@ -61,6 +61,7 @@ section {
   height: 150px;
 
   font-family: 'Bangers', cursive;
+  font-size: 14px;
 
   display: flex;
   justify-content: space-around;
@@ -87,7 +88,7 @@ section {
 
     }
   }
-  
+
   &:last-child {
     img {
       height: 35px;
