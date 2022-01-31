@@ -3,7 +3,7 @@
     <div class="container">
       <div class="logo">
         <a href="#">
-          <img src="../assets/img/dc-logo.png" alt="DC">
+          <img src="../../assets/img/dc-logo.png" alt="DC">
         </a>
       </div>
       <nav>
@@ -71,8 +71,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "../assets/style/global.scss";
-@import "../assets/style/partials/variables.scss";
+@import "../../assets/style/global.scss";
+@import "../../assets/style/partials/variables.scss";
 
 .container {
   justify-content: space-between;

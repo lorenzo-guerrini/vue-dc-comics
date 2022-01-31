@@ -11,7 +11,7 @@
       </div>
 
       <div id="dc-logo-bg">
-        <img src="../assets/img/dc-logo-bg.png" alt="DC">
+        <img src="../../assets/img/dc-logo-bg.png" alt="DC">
       </div>
     </div>
   </section>
@@ -150,11 +150,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "../assets/style/global.scss";
-@import "../assets/style/partials/variables.scss";
+@import "../../assets/style/global.scss";
 
 section {
-  background-image: url("../assets/img/footer-bg.jpg");
+  background-image: url("../../assets/img/footer-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

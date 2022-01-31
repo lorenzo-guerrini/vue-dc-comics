@@ -18,8 +18,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "../assets/style/global.scss";
-@import "../assets/style/partials/variables.scss";
+@import "../../assets/style/global.scss";
+@import "../../assets/style/partials/variables.scss";
 
 main {
   background-color: $secondaryColor;
@@ -27,7 +27,7 @@ main {
 }
 
 .jumbotron {
-  background-image: url("../assets/img/jumbotron.jpg");
+  background-image: url("../../assets/img/jumbotron.jpg");
   background-size: cover;
   height: 265px;
 }

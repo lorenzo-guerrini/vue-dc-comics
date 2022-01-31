@@ -12,7 +12,7 @@
         <ul>
           <li v-for="(social, i) in socials" :key="i">
             <a :href="social.url">
-              <img :src="require('../assets/img/' + social.icon)" :alt="social.name">
+              <img :src="require('../../assets/img/' + social.icon)" :alt="social.name">
             </a>
           </li>
         </ul>
@@ -59,8 +59,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "../assets/style/global.scss";
-@import "../assets/style/partials/variables.scss";
+@import "../../assets/style/global.scss";
+@import "../../assets/style/partials/variables.scss";
 
 section {
   background-color: $tertiaryColor;

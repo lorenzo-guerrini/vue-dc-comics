@@ -11,11 +11,11 @@
 </template>
 
 <script>
-import Header from './components/Header.vue'
-import Main from './components/Main.vue'
-import FooterTop from './components/FooterTop.vue'
-import FooterMiddle from './components/FooterMiddle.vue'
-import FooterBottom from './components/FooterBottom.vue'
+import Header from './components/macro/Header.vue'
+import Main from './components/macro/Main.vue'
+import FooterTop from './components/macro/FooterTop.vue'
+import FooterMiddle from './components/macro/FooterMiddle.vue'
+import FooterBottom from './components/macro/FooterBottom.vue'
 
 export default {
   name: 'App',

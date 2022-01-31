@@ -3,7 +3,7 @@
     <div class="container">
       <div v-for="(item, i) in footerTopItems" :key="i" class="footer-top-item">
         <a :href="item.url">
-          <img :src="require('../assets/img/' + item.img)" alt="">
+          <img :src="require('../../assets/img/' + item.img)" alt="">
           <span class="footer-top-item-name">{{item.text}}</span>
         </a>
       </div>
@@ -50,8 +50,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "../assets/style/global.scss";
-@import "../assets/style/partials/variables.scss";
+@import "../../assets/style/global.scss";
+@import "../../assets/style/partials/variables.scss";
 
 section {
     background-color: $mainColor;
