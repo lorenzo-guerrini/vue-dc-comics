@@ -1,10 +1,13 @@
 <template>
   <main>
-    <div class="container">
-      <section>
-        <h1>--&gt; Content Goes here &lt;--</h1>
-      </section>
-    </div>
+    <section>
+      <div class="jumbotron"></div>
+     </section>
+     <section>
+       <div class="container">
+         <h2>Current Series</h2>
+       </div>
+    </section>
   </main>
 </template>
 
@@ -23,10 +26,14 @@ main {
   color: white;
 }
 
+.jumbotron {
+  background-image: url("../assets/img/jumbotron.jpg");
+  background-size: cover;
+  height: 265px;
+}
+
 .container {
   font-family: 'Bangers', cursive;
   padding: 0 14px;
-
-  height: 115px;
 }
 </style>
