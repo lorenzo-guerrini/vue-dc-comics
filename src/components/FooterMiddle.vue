@@ -9,6 +9,10 @@
           </li>
         </ul>
       </div>
+
+      <div id="dc-logo-bg">
+        <img src="../assets/img/dc-logo-bg.png" alt="DC">
+      </div>
     </div>
   </section>
 </template>
@@ -154,6 +158,8 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  overflow: hidden;
 }
 
 .container {
@@ -163,6 +169,8 @@ section {
   flex-wrap: wrap;
 
   font-family: 'Bangers', cursive;
+
+  position: relative;
 }
 
 .category {
@@ -184,5 +192,12 @@ section {
       color: #959595;
     }
   }
+}
+
+#dc-logo-bg {
+  position: absolute;
+
+  top: -100px;
+  right: 0px;
 }
 </style>
